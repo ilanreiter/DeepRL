@@ -1,0 +1,1 @@
+docker run -it -v C:/Users/ireiter/OneDrive/Python:/home/jovyan/ -p 8888:8888 ilanreiter/general:deep-rl
