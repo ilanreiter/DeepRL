@@ -1,6 +1,8 @@
+
+
+#%%
+
 my_list = [4, 7, 0, 3]
-
-
 
 
 # get an iterator using iter()
@@ -74,6 +76,6 @@ import pandas as pd
 data = {'A':[1,2], 'B':[3,4], 'C':[5,6]}
 df = pd.DataFrame(data=array, columns = ['A','B','C','D'])  
 for i in df:
-    print(i)
+    #print(i)
     print(df[i])
 
