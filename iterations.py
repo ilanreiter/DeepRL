@@ -79,3 +79,10 @@ for i in df:
     #print(i)
     print(df[i])
 
+#Generating random classes and populating array of labels
+n = 10
+s = 20
+x = np.random.randint(0,n, size=s)
+label = np.zeros((s,n))
+label[list(range(0,s)), [x]] = 1
+x, label
